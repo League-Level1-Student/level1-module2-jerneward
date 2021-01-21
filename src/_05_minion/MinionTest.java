@@ -30,8 +30,32 @@ public void setName(String newname) {
 	this.name = newname;
 }
 
-
+public int getEyes( ) {
+	return eyes; 
 }
+
+public void setEyes (int i) {
+	this.eyes = i;
+}
+
+public String getColor() {
+	return color; 
+}
+
+public void setColor (String newcolor) {
+	this.color = newcolor;
+}
+
+public String getMaster () {
+	return master; 
+}
+
+public void setMaster (String newmaster) {
+	this.master = newmaster; 
+}
+}
+
+
 
 /*
 
